@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>The Cab App</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/Logo.ico" type="image/x-icon">
+
+  <!-- Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/03713dca2e.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS and JQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid first-section">
+
+
+      <!-- Nav Bar -->
+      <nav class=" navbar navbar-expand-lg navbar-dark bg-custom">
+        <a class="navbar-brand" href="#title"><img class="logo" src="images/logo.png" alt="logo"></a>
+        <input type="text" name="YourSearch" class="search-navigator" placeholder="Use our Navigator">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="#features">What's In?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Ride</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#about">About</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+
+
+      <!-- Title -->
+      <div class="row header-section">
+        <div class="col-lg-6">
+          <h1>The Cab App</h1>
+          <h2 class="first-h2">Book a cab for all your needs.</h2>
+          <input type="text" name="YourLocation" class="location-destination" placeholder="Your Location">
+          <input type="text" name="YourLocation" class="location-destination" placeholder="Your Destination">
+          <button type="button" class="btn btn-md btn-outline-light download-button"> <i class="fas fa-taxi"></i> Let Us Navigate </button>
+
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/Home.png" alt="cab-image">
+        </div>
+        <div class="go-to-top">
+          <a href="#title"><i class="fas fa-chevron-circle-up fa-4x go-top-fa"></i></a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+  <section id="features">
+    <div class="container-fluid text-center">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <i class="fas fa-code fa-5x text-center"></i>
+          <h3 class="text-center">Programmer?</h3>
+          <p class="text-center">Code while you ride with our seamless WiFi.</p>
+        </div>
+
+        <div class="col-lg-4">
+          <i class="fas fa-book fa-5x text-center"></i>
+          <h3 class="text-center">Nerd?</h3>
+          <p class="text-center">Enjoy our great collection of books at no extra cost.</p>
+        </div>
+
+        <div class="col-lg-4 resize-content">
+          <i class="fas fa-mug-hot fa-6x text-center"></i>
+          <h3 class="text-center">Coffee lover?</h3>
+          <p class="text-center">Let us brew your coffee.Might not be as great as StarBucks but we are
+            best in our own way</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <h2 class="testimonial-text">All you need to do is to enter your location and destination.</h2>
+          <img class="testimonial-image" src="images/maxwell-lord.jpg" alt="dog-profile">
+          <em>Maxwell lord, WW84</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">All i can say is, Only because of The Cab App .. I've found my way to earth.</h2>
+            <img class="testimonial-image" src="images/Darkseid.jpg" alt="lady-profile">
+            <em>Dark Seid, Destroyer</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">The fastest man alive says .. The cab app is even faster than him.</h2>
+            <img class="testimonial-image" src="images/flash.jpg" alt="lady-profile">
+            <em>The Falsh, Central City</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Ee reviews evi fake kaadhandi.</h2>
+            <img class="testimonial-image" src="images/fake.png" alt="lady-profile">
+            <em>DVV Danayya, Producer</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/DC.png" alt="tc-logo">
+    <img class="press-logo" src="images/WB.png" alt="tnw-logo">
+    <img class="press-logo" src="images/Wayne.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/lantern.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="about">
+
+    <div class="row header-section">
+      <div class="col-lg-6">
+        <h1 class="second-h1">Who are We?</h1>
+        <h2 class="second-h2">Well, Basically bunch of people
+          who’d like to hide their faces..
+          If you’d like us to reveal ..
+          All you have to do is support us
+          by clicking on every button below</h2>
+
+        <button type="button" class="btn btn-md btn-outline-light download-button about-links"> <i class="fab fa-twitter"></i> Twitter </button>
+        <button type="button" class="btn btn-md btn-outline-light download-button about-links"> <i class="fab fa-reddit"></i> Our SubReddit </button>
+        <button type="button" class="btn btn-md btn-outline-light download-button about-links"> <i class="fab fa-discord"></i> Discord Server </button>
+
+      </div>
+      <div class="col-lg-6">
+        <img class="about-image" src="images/about.png" alt="cab-image">
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="second-h3">So watcha waitin for .. Book a companion</h3>
+            <button type="button" class="btn btn-md btn-outline-light download-button book-button"> <i class="fas fa-taxi"></i> Book a companion </button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <p class="faw-icons"><i class="fab fa-discord">&nbsp;&nbsp;&nbsp;&nbsp;</i> <i class="fab fa-reddit-alien">&nbsp;&nbsp;&nbsp;&nbsp;</i> <i class="fab fa-twitter"></i> </p>
+    <p>© Copyright 2020 The Cab App</p>
+
+  </footer>
+
+
+</body>
+
+</html>
